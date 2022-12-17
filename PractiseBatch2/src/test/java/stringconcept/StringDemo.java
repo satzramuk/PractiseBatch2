@@ -18,8 +18,10 @@ public class StringDemo {
 		//Here we will see list of String methods and String concepts
 
 				String name = "SathishKumar";
-				String value = " Raj Kumar";
+				String value = " Raj Kumar ";
 				int number = 3;
+				
+				
 
 				//returns character value for the particular index
 
@@ -47,6 +49,7 @@ public class StringDemo {
 				System.out.println("7th one is: "+name.substring(3));
 				
 				//take a particular portion of the string begin and end index
+				//				String name = "SathishKumar";
 				System.out.println("8th one is: "+name.substring(1, 5));
 				
 				
@@ -61,9 +64,12 @@ public class StringDemo {
 				System.out.println("11th one is: "+name.indexOf("i"));
 				
 				//finds the character specified from the index position
+				//				String name = "SathishKumar";
 				System.out.println("12th one is: "+name.indexOf("a",5));
 				
 				//Trim will remove the white spaces before and after
+				//String value = " Raj Kumar ";
+
 				System.out.println("13th one is: "+value.trim());
 				
 				//convert the given data type to String
@@ -82,11 +88,15 @@ public class StringDemo {
 				//Returns a Joined String with Given delimiter
 				System.out.println("17th one is: "+String.join("-", "Learn","Testing","Online"));
 				System.out.println("18th one is: "+String.join("/", "24","05","2021"));
+	
 				
 				
 				//split
 				String splitThis ="Am,I,teaching,good?";
 				String[] splited = splitThis.split(",");
+				
+			String op=	splitThis.split(",")[3];
+			System.out.println("Output Value :"+op);
 				
 				for (String val : splited) {
 					
