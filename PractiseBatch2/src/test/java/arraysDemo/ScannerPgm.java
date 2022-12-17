@@ -29,7 +29,7 @@ public class ScannerPgm {
 
 		for(int i=0;i<rows;i++) {
 			for(int j=0;j<cols;j++) {
-				System.out.print(data[i][j]+"/t");
+				System.out.print(data[i][j] + "\t");
 			}
 			System.out.println();
 		}
