@@ -13,7 +13,7 @@ public class StringBufferDemo {
 		
 		System.out.println("StringBuffer is Mutable");
 		StringBuffer name1= new StringBuffer("Arya");
-
+		StringBuilder name12= new StringBuilder("Arya");
 		System.out.println("Appending a name with Arya :"+name1.append("prasath"));
 		System.out.println("Original name : "+name1);
 		
@@ -38,7 +38,7 @@ public class StringBufferDemo {
 		
 		//Insert
 		StringBuffer insertthis= new StringBuffer("Moni");
-		System.out.println("4th Method :"+insertthis.insert(3, "sha"));
+		System.out.println("4th Method :"+insertthis.insert(4, "sha"));
 		
 		//capacity
 		System.out.println("4th Method :"+insertthis.capacity());

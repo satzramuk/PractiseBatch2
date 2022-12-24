@@ -2,6 +2,9 @@ package polymorphism;
 
 public class MethodOverloadingDemo {
 	
+	public static String value = "Raj";
+	public String anothervalue = "sathish";
+	
 	void school(int a) {
 		
 		System.out.println("My first non static method");
