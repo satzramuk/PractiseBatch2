@@ -24,6 +24,7 @@ public class ParameterizedConstructorDemo {
 	public static void main(String[] args) {
 		
 		new ParameterizedConstructorDemo(30);
+		new ParameterizedConstructorDemo('G', 0.08);
 		
 		
 

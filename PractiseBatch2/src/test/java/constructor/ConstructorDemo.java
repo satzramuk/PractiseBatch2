@@ -3,6 +3,7 @@ package constructor;
 public class ConstructorDemo {
 	
 	// accessmodifier constructorname()
+	//public constructorname(){}
 	public ConstructorDemo() {
 		System.out.println("My first default constructor");
 	}
