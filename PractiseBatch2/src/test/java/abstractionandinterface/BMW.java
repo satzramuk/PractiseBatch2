@@ -1,28 +1,35 @@
 package abstractionandinterface;
 
-public class BMW extends Car implements UpcomingProjects{
+public class BMW extends Car {
 
 	@Override
 	public void engineSecret() {
-		
-		System.out.println("Custom engine secret for BMW");
+		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void companyvault() {
-		
-		System.out.println("Custom company vault for BMW");
-
+		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public void demoproject() {
+//	@Override
+//	public void engineSecret() {
+//		
+//		System.out.println("Custom engine secret for BMW");
+//		
+//	}
+//
+//	@Override
+//	public void companyvault() {
+//		
+//		System.out.println("Custom company vault for BMW");
+//
+//		
+//	}
 
-		System.out.println("-------------");
-	}
-	
+		
 	
 	
 

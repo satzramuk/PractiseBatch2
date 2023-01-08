@@ -1,6 +1,7 @@
 package abstractionandinterface;
 
 public abstract class Car {
+	//Syntax:   Accessmodifier abstract class classname
 	
 	
 	
