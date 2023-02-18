@@ -14,6 +14,8 @@ public class ArrayListDemo {
 		//		List<String> ary = new ArrayList<>();
 		//		      (or)
 		//		ArrayList<E> aray = new ArrayList<>();
+		//            (or)
+		//      List<E> aray = Arrays.aslist("element");
 		//		
 
 
@@ -81,7 +83,7 @@ public class ArrayListDemo {
 
 		// Check if arraylist is empty 
 
-		System.out.println(cars.isEmpty());
+		System.out.println("Check if list is Empty or not : "+cars.isEmpty());
 
 		System.out.println("******************************************************");
 
