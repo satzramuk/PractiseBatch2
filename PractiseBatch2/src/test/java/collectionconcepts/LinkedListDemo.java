@@ -103,7 +103,7 @@ public class LinkedListDemo {
 		//lst.traditionalForloop();
 		
 		Stack<String> stk = new Stack<>();
-		stk.
+		//stk.
 
 
 	}
